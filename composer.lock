@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd8a5591046656c1fd957242dbd590e6",
+    "content-hash": "00cf46b321fa8eacd2ce3242db911c19",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -671,6 +671,46 @@
                 }
             ],
             "time": "2021-07-20T14:43:20+00:00"
+        },
+        {
+            "name": "vstaran/mycalc",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vstaran/php-mycalc-pkg.git",
+                "reference": "f2993faa90b7527a9fd93784b96a52e2c4aa3a07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vstaran/php-mycalc-pkg/zipball/f2993faa90b7527a9fd93784b96a52e2c4aa3a07",
+                "reference": "f2993faa90b7527a9fd93784b96a52e2c4aa3a07",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Liba\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Victor Staranchuk",
+                    "email": "vtipok89@gmail.com"
+                }
+            ],
+            "description": "PHP calculator class which will accept two values as arguments then add, subtract, multiply or divide them",
+            "support": {
+                "issues": "https://github.com/vstaran/php-mycalc-pkg/issues",
+                "source": "https://github.com/vstaran/php-mycalc-pkg/tree/1.0.0"
+            },
+            "time": "2021-10-25T11:57:14+00:00"
         }
     ],
     "packages-dev": [],

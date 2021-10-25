@@ -13,6 +13,7 @@
     ],
     "require": {
         "guzzlehttp/guzzle": "^7.4",
-        "tecnickcom/tcpdf": "^6.4"
+        "tecnickcom/tcpdf": "^6.4",
+        "vstaran/mycalc": "^1.0"
     }
 }
