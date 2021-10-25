@@ -46,7 +46,7 @@ composer dump-autoload
 - show --installed - список установленных пакетов с описанием
 
 ```sh
-show --installed
+composer show -i
 ```
 
 
